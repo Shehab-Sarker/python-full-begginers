@@ -1,0 +1,30 @@
+PYTHON:
+Python is a very populer general-purpose
+interpreted , interactive, object-oriented, and high-level 
+progamming language .it was created by Guido van Rossom 
+during 1985-1990
+
+AGENDA
+1)  First Python Program
+2)  Variable , Data Type & Data Input
+3)  Operators
+4)  String ManiPulations
+5)  List
+6)  Tuple
+7)  Sets
+8)  Dictionary
+9)  Conditional Logic
+10) Loops
+11) Functions
+12) Files
+13) os module
+14) date time module
+15) 5 Project
+
+Careers with Python
+1) Game Developer
+2) Machine Learning Enginneer
+3) Data scientist
+4) DevOps Enginneer
+5) data analyst
+6) Software Enginneer
