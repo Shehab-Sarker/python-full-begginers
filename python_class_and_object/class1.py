@@ -33,4 +33,38 @@ p2=person("Johm",36)
 
 print(p2.name)
 print(p2.age)
+
+# The __init__() function is called automatically every time the class is being used to create a new object.
 print("")
+
+# The __str__() Function
+# The __str__() function controls what should be returned when the class object is represented as a string.
+
+class  Person1:
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+        
+    def __str__(self):
+        return f"{self.name}({self.age})"
+    
+p3=Person1("shehab","23")
+print(p3)
+print()
+
+# Object Methods
+# Objects can also contain methods. Methods in objects are functions that belong to the object.
+
+class Person2:
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+        
+    def myfunc(self):
+        print(f"Hello my name is {self.name} and age is {self.age}")
+        
+p4=Person2("shehab",23)
+p4.myfunc()        
+
+
+        
